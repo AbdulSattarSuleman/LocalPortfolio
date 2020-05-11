@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body id="contact-page">
+   <div class="container">
+     <header class="header">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="" >
+            </div>
+            <div class="name">
+                <h1>ABDUL SATTAR SULEMAN</h1>
+                <h2>WEB DEVELOPER</h2>
+            </div>
+            <nav class="menu">
+            
+                    <a href="index.html">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="about.html">ABOUT </a> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="#">PROJECTS </a> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="#">CONTACT</a>&nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="#">NEWS</a>
+
+                
+            </nav>
+        </header>
+            <aside>
+                <h1> Side Bar</h1>
+            </aside>
+            <article class="main">
+               <h3>Contact</h3><br>
+               <div class="form">
+                   <form  action="Data.php" method="post">
+                        <p>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" required="required" class="input">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email"  class="input" required="required" title="Email">
+                        </p> 
+                       <p>
+                            <label for="subject">Subject</label>
+                            <input type="text" name="subject" class="input" required="required">
+                        </p> 
+                       <p>
+                            <label for="message">Message</label>
+                       </p>
+                       <p>
+                            <textarea name="message" id="" cols="70" rows="10" style="border: 2px solid #d6d6d6; background-color: #d6d6d6;"></textarea>
+                        </p>
+                        <p>
+                            <button type="submit" class="submit-btn" name="submit">Submit</button>
+                        </p>
+                   </form>
+               </div>
+            </article>
+            <footer class="footer">
+            <div class="last">
+                 <span> &copy; &nbsp; 2020 PortFolio Website</span> <span class="separator">|</span> <span>Designed By Abdul Sattar</span>
+            </div>
+            </footer>
+</div>
+        </body>
